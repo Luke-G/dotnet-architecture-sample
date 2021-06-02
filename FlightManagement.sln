@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E30C554A-057E-4C9C-9D45-95A0B45CF73F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FE54E715-5AE8-4D31-8746-0B5C01090BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{41DA9984-C85D-4045-AA6D-7CE5745679F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FFCE9446-162E-41FC-BD6A-BFE922C57095}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2E22AC77-2582-4825-A60F-F949BA9BF75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Domain", "FlightManagement.Domain\FlightManagement.Domain.csproj", "{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Application", "FlightManagement.Application\FlightManagement.Application.csproj", "{029D592D-89B1-44BF-9F70-A53AAC527500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Persistence", "FlightManagement.Persistence\FlightManagement.Persistence.csproj", "{7ED30A63-A209-4187-B6CF-F172F85BE263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Infrastructure", "FlightManagement.Infrastructure\FlightManagement.Infrastructure.csproj", "{0121DEE4-2758-4A3A-BD4A-81796DE4AED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.API", "FlightManagement.API\FlightManagement.API.csproj", "{E7E49B12-1815-4794-AF5D-383E1F98D100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Application.UnitTests", "FlightManagement.Application.UnitTests\FlightManagement.Application.UnitTests.csproj", "{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.Persistence.IntegrationTests", "FlightManagement.Persistence.IntegrationTests\FlightManagement.Persistence.IntegrationTests.csproj", "{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagement.API.IntegrationTests", "FlightManagement.API.IntegrationTests\FlightManagement.API.IntegrationTests.csproj", "{23792270-B18F-4390-B5BF-1F8C9C0F88D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41DA9984-C85D-4045-AA6D-7CE5745679F9} = {E30C554A-057E-4C9C-9D45-95A0B45CF73F}
+		{FFCE9446-162E-41FC-BD6A-BFE922C57095} = {E30C554A-057E-4C9C-9D45-95A0B45CF73F}
+		{2E22AC77-2582-4825-A60F-F949BA9BF75C} = {E30C554A-057E-4C9C-9D45-95A0B45CF73F}
+		{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4} = {FFCE9446-162E-41FC-BD6A-BFE922C57095}
+		{029D592D-89B1-44BF-9F70-A53AAC527500} = {FFCE9446-162E-41FC-BD6A-BFE922C57095}
+		{7ED30A63-A209-4187-B6CF-F172F85BE263} = {2E22AC77-2582-4825-A60F-F949BA9BF75C}
+		{0121DEE4-2758-4A3A-BD4A-81796DE4AED8} = {2E22AC77-2582-4825-A60F-F949BA9BF75C}
+		{E7E49B12-1815-4794-AF5D-383E1F98D100} = {41DA9984-C85D-4045-AA6D-7CE5745679F9}
+		{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D} = {FE54E715-5AE8-4D31-8746-0B5C01090BE7}
+		{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2} = {FE54E715-5AE8-4D31-8746-0B5C01090BE7}
+		{23792270-B18F-4390-B5BF-1F8C9C0F88D3} = {FE54E715-5AE8-4D31-8746-0B5C01090BE7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFA79B7-9DCD-48FD-9FAD-A6124A1736E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029D592D-89B1-44BF-9F70-A53AAC527500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029D592D-89B1-44BF-9F70-A53AAC527500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029D592D-89B1-44BF-9F70-A53AAC527500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029D592D-89B1-44BF-9F70-A53AAC527500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED30A63-A209-4187-B6CF-F172F85BE263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED30A63-A209-4187-B6CF-F172F85BE263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED30A63-A209-4187-B6CF-F172F85BE263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED30A63-A209-4187-B6CF-F172F85BE263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0121DEE4-2758-4A3A-BD4A-81796DE4AED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0121DEE4-2758-4A3A-BD4A-81796DE4AED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0121DEE4-2758-4A3A-BD4A-81796DE4AED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0121DEE4-2758-4A3A-BD4A-81796DE4AED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E49B12-1815-4794-AF5D-383E1F98D100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E49B12-1815-4794-AF5D-383E1F98D100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E49B12-1815-4794-AF5D-383E1F98D100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E49B12-1815-4794-AF5D-383E1F98D100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA9D01D-F12E-4CC4-9EE6-FD88AF8EE80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC3562-8B42-45BE-9A19-39B7CA9D63B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23792270-B18F-4390-B5BF-1F8C9C0F88D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23792270-B18F-4390-B5BF-1F8C9C0F88D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23792270-B18F-4390-B5BF-1F8C9C0F88D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23792270-B18F-4390-B5BF-1F8C9C0F88D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
