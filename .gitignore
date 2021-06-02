@@ -1,4 +1,4 @@
-FlightManagement.API/Logs/*
+FlightManagement.API/Logs/
 FlightManagement.API/appsettings.Development.json
 
 *.swp
